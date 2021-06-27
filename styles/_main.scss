@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  // background-color: $dark-green;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+div[role="tooltip"] {
+  z-index: 1030;
+}
+
+
+.main-container{
+  padding-top: ".4em"
+ }
+
+ .right-banners .adv,.right-banners .adv .button.btn {
+  padding: 0.5em;
+  background-color: #193a49;
+  margin: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  flex-grow: 1;
+  align-items: center;
+  max-height: 55px
+}
+
+
+ .right-banners .adv {
+  padding: 0.5em;
+  background: #193a49;
+  margin: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  flex-grow: 1;
+  align-items: center;
+  max-height: 55px
+}
+
+.right-banners .adv a {
+  font-weight: bold;
+  color: #fff;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  justify-content: center;
+}
+
+.right-banners .adv a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.banner {
+  padding: 0.5em;
+  background: #193a49;
+  margin: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  flex-grow: 1;
+  align-items: center;
+  max-height: 55px;
+  border: none;
+}
+
+.banner > a {
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+}
+.banner > a:hover{
+  color: $light-green;
+}
+
+
+.thump {
+  padding: 0.5em;
+  background: $dark-green;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom:10px
+}
+.thump:hover {
+    background: $light-green;
+  }
+
+.info{
+  text-align: left;
+}
+
+.action-icon {
+  width: 2em;
+  margin-bottom: 0.2em;
+}
+
+.action-icon>svg {
+  fill:$dark-green;
+}
